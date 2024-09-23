@@ -65,7 +65,7 @@
 .column-left, .column-right {
     flex-basis: 45%; 
     padding: 60px; 
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .column-left {
@@ -73,7 +73,7 @@
 }
 
 .text {
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
     color: #333; 
     margin-top: 20px;
 }
