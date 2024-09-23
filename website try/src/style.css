@@ -41,11 +41,12 @@
     position: absolute;  
     right: 0; 
     margin-top: -25px; 
+    margin-right: 3px;
 }
 
 .titel-container {
     text-decoration: none;
-    margin-top: 20px;          
+    margin-top: 40px;          
 }
 
 .titel {
@@ -53,4 +54,30 @@
     color: rgb(0, 0, 0);
     font-size: 3em;
     text-align: center;
+}
+
+.column-container {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 30px; 
+}
+
+.column-left, .column-right {
+    flex-basis: 45%; 
+    padding: 60px; 
+    font-size: 2rem;
+}
+
+.column-left {
+    text-align: left; 
+}
+
+.text {
+    font-size: 0.8rem; 
+    color: #333; 
+    margin-top: 20px;
+}
+
+.column-right {
+    text-align: right; 
 }
