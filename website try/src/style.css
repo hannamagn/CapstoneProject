@@ -76,7 +76,11 @@
     font-size: 0.9rem; 
     color: #333; 
     margin-top: 20px;
-    margin-bottom: 20px;
+    
+}
+
+.text p {
+    margin-bottom: 20px;  /* Space between paragraphs */
 }
 
 .column-right {
