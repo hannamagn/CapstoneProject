@@ -100,3 +100,32 @@
 .column-right {
     text-align: right; 
 }
+
+.text {
+    display: flex;
+    gap: 50px; /* Increase this to add more space between team members */
+    justify-content: center; /* Center align the whole team */
+    flex-wrap: wrap; /* Wrap the team members if the screen is too narrow */
+}
+
+.team-member {
+    text-align: center; /* Center the content inside each team member block */
+    width: 150px; /* Set width for each team member block */
+}
+
+.team-member img {
+    width: 100px; /* Adjust the size of the images */
+    height: auto;
+    border-radius: 50%; /* Optional: make the image round */
+}
+
+.team-member span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.team-member p {
+    margin-top: 5px;
+    font-size: 14px;
+}
