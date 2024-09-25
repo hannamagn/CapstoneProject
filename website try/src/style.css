@@ -100,3 +100,15 @@
 .column-right {
     text-align: right; 
 }
+
+.embed-container {
+    text-align: center; 
+    margin-top: 50px; /* Lägger till avstånd mellan kolumner och iframe */
+}
+
+.embed-container iframe {
+    width: 720px; /* Justera bredden på iframen */
+    height: 512px; /* Justera höjden */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centrera iframen */
+}
