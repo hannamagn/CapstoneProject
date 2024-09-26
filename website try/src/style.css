@@ -88,9 +88,11 @@ body {
 }
 
 .column-container {
-    display: flex; 
-    justify-content: space-between; 
-    margin: 30px; 
+    display: flex;
+    justify-content: space-around; /* Ändra från space-between till space-around för att centrera innehållet mer naturligt */
+    align-items: center; /* Centrera innehållet vertikalt */
+    margin: 10px 0; /* Minska mellanrum ovanför och under kolumnerna */
+    height: auto; /* Justera höjden efter innehållet */
 }
 
 .column-left, .column-right {
@@ -115,17 +117,30 @@ body {
 }
 
 .column-right {
-    text-align: right; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Se till att den rosa bilden centreras vertikalt */
+    padding: 0; /* Ta bort överflödig padding */
+    margin-top: 20px; /* Justera denna siffra för att få exakt den höjd du önskar */
 }
+
+/* FIGMA GREJER UNDER */ 
+.section-title {
+    text-align: center; 
+    font-size: 2rem; 
+    margin: 20px 0 20px; /* Avstånd mellan sektionerna */
+}
+
 
 .embed-container {
     text-align: center; 
-    margin-top: 50px; /* Lägger till avstånd mellan kolumner och iframe */
+    margin-top: 20px; /* Lägger till avstånd mellan kolumner och iframe */
 }
 
 .embed-container iframe {
-    width: 720px; /* Justera bredden på iframen */
-    height: 512px; /* Justera höjden */
+    width: 600px; /* Justera bredden på iframen */
+    height: 426.7px; /* Justera höjden */
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0 auto; /* Centrera iframen */
 }
